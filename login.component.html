@@ -1,0 +1,20 @@
+<p>login works!</p>
+<div class="bkg">
+  <div class="middle-box">
+       <div class="img-box">
+         <img src="assets/images/main-course-3.png" class="img-size">
+       </div>
+       
+        <form class="login-box">
+         <h2 align="center">User Login</h2>
+         <br>
+         <img src="assets/images/mail.jpeg" class="img-size1"><input type="email" name="email" class="input-field" placeholder="email" [(ngModel)]="email">
+         <br>
+         <img src="assets/images/password.jpeg"  class="img-size1"><input type="password" name="password" class="input-field" placeholder="password" [(ngModel)]="password">
+         <br><br>
+         <input type="submit" class="btn" (click)="login()">
+         <br>
+         <h6 class="link"><a href="#" class="link1">forgot password</a></h6>
+       </form>
+      </div>
+ </div>
