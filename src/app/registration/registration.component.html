@@ -1,0 +1,23 @@
+<p>registration works!</p>
+<div class="bkg">
+    <div class="middle-box">
+         <div class="img-box">
+           <img src="assets/images/main-course-3.png" class="img-size">
+         </div>
+         
+          <form class="reg-box" (ngSubmit)="onSubmit()">
+           <h2 align="center">Create Account</h2>
+           <input type="text" name="username" class="input-field" placeholder="username" [(ngModel)]="username" required>
+           <input type="email" name="email" class="input-field" placeholder="email" [(ngModel)]="email">
+           <input type="password" name="password" class="input-field" placeholder="password" [(ngModel)]="password">
+           <input type="password" name="password" class="input-field" placeholder="re-enter password" [(ngModel)]="reenterpassword"><br><br>
+           <input type="submit" class="btn" >
+           <br><br>
+          </form>
+    </div>
+</div>
+
+<input type="file" id="fileInput">
+<button onclick="handleFile()">Open Text File</button>
+
+<script src="assets/validation.js"></script>
